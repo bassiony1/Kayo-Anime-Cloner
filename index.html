@@ -19,11 +19,11 @@
       crossorigin="anonymous"
     />
     <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-    defer
-    crossorigin="anonymous"
-  ></script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      defer
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js" defer></script>
     <title>Home</title>
   </head>
@@ -39,76 +39,176 @@
       </div>
     </div>
     <!-- Logo End -->
-      <!-- Nav Startt -->
-      <div class="container-fluid rounded rounded-3 sticky-lg-top opacity-75 bg-dark">
-        <div class="container-xxl py-2">
-          <div class="row align-items-center rounded-pill">
-            <div class="col">
-              <div class="row align-items-center">
-                <div class="col-5 d-lg-none navbar-brand">
-                  <img src="images/Kayoanimelogo.png" class="img-fluid" alt="" />
-                </div>
-                <div class="col align-items-center">
-                  <ul
-                    class="d-none align-items-center d-lg-flex text-white my-auto list-inline"
-                    id="ul-hover"
-                  >
-                    <li class="bg-primary p-3 rounded">
-                      <a href="" class="nav-link">
-                        <i class="fa-solid fa-home opacity-75 fs-5 text-white"></i
-                      ></a>
-                    </li>
-                    <li class="p-3 rounded">
-                      <a href="" class="nav-link">
-                        <i
-                          class="fa-solid fa-camera fs opacity-75 text-white"
-                        ></i>
-                        ONGOING ANIME</a
-                      >
-                    </li>
-                    <li class="p-3 rounded">
-                      <a href="" class="nav-link">
-                        <i
-                          class="fa-solid fa-bolt-lightning fs opacity-75 text-white"
-                        ></i>
-                        ANIME MOVIE</a
-                      >
-                    </li>
-                    <li class="p-3 rounded">
-                      <a href="" class="nav-link"
-                        ><i
-                          class="fa-solid fa-backward opacity-75 text-white"
-                        ></i>
-                        REQUEST ANIME</a
-                      >
-                    </li>
-                    <li class="p-3 rounded">
-                      <a href="" class="nav-link"
-                        ><i class="fa-solid fa-file opacity-75 text-white"></i>
-                        ANIME SERIES</a
-                      >
-                    </li>
-                    <li class="p-3 rounded">
-                      <a href="" class="nav-link"
-                        ><i class="fa-solid fa-unlink opacity-75 text-white"></i>
-                        REPORT DEAD LINKS</a
-                      >
-                    </li>
-                  </ul>
-                </div>
+    <!-- Nav Startt -->
+    <div
+      class="container-fluid rounded rounded-3 sticky-lg-top opacity-75 bg-dark"
+    >
+      <div class="container-xxl py-2">
+        <div class="row align-items-center rounded-pill">
+          <div class="col">
+            <div class="row align-items-center">
+              <div class="col-5 d-lg-none navbar-brand">
+                <img src="images/Kayoanimelogo.png" class="img-fluid" alt="" />
+              </div>
+              <div class="col align-items-center">
+                <ul
+                  class="d-none align-items-center d-lg-flex text-white my-auto list-inline"
+                  id="ul-hover"
+                >
+                  <li class="bg-primary p-3 rounded">
+                    <a href="" class="nav-link">
+                      <i class="fa-solid fa-home opacity-75 fs-5 text-white"></i
+                    ></a>
+                  </li>
+                  <li class="p-3 rounded">
+                    <a href="" class="nav-link">
+                      <i
+                        class="fa-solid fa-camera fs opacity-75 text-white"
+                      ></i>
+                      ONGOING ANIME</a
+                    >
+                  </li>
+                  <li class="p-3 rounded">
+                    <a href="" class="nav-link">
+                      <i
+                        class="fa-solid fa-bolt-lightning fs opacity-75 text-white"
+                      ></i>
+                      ANIME MOVIE</a
+                    >
+                  </li>
+                  <li class="p-3 rounded">
+                    <a href="" class="nav-link"
+                      ><i
+                        class="fa-solid fa-backward opacity-75 text-white"
+                      ></i>
+                      REQUEST ANIME</a
+                    >
+                  </li>
+                  <li class="p-3 rounded">
+                    <a href="" class="nav-link"
+                      ><i class="fa-solid fa-file opacity-75 text-white"></i>
+                      ANIME SERIES</a
+                    >
+                  </li>
+                  <li class="p-3 rounded">
+                    <a href="" class="nav-link"
+                      ><i class="fa-solid fa-unlink opacity-75 text-white"></i>
+                      REPORT DEAD LINKS</a
+                    >
+                  </li>
+                </ul>
               </div>
             </div>
-            <div class="col-2 p-0">
-              <div class="input-group d-none d-lg-flex border-0">
+          </div>
+          <div class="col-2 p-0">
+            <div class="input-group d-none d-lg-flex border-0">
+              <input
+                type="text"
+                class="form-control text-opacity-75 text-capitalize bg-opacity-75 bg-dark border-0 border-start shadow-sm text-light"
+                placeholder="Search For"
+                aria-label="Recipient's username"
+                aria-describedby="basic-addon2"
+              />
+              <span
+                class="input-group-text bg-dark bg-opacity-75 border-0 border-end"
+                id="basic-addon2"
+                ><i
+                  class="fa-solid fa-magnifying-glass opacity-75 text-white"
+                ></i
+              ></span>
+            </div>
+          </div>
+          <button
+            type="button"
+            class="btn btncollapse p-2 border-0 col-3 col-sm-1 d-flex d-lg-none align-items-center gap-1 text-white"
+            data-bs-toggle="modal"
+            data-bs-target="#Asider"
+          >
+            <i class="fa-solid fa-align-right"></i>
+            <span>Menu</span>
+          </button>
+          <!-- <div class="model-wrapper d-none" id="collapsenav">
+              
+            </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="Asider"
+      tabindex="-1"
+      aria-labelledby="AsiderLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen-lg-down d-lg-none bg-dark">
+        <div class="modal-content">
+          <div class="modal-header bg-dark">
+            <h5 class="modal-title" id="AsiderLabel">
+              <img
+                src="images/Kayoanimelogo.png"
+                alt=""
+                class="img-fluid me-auto"
+              />
+            </h5>
+            <button
+              type="button"
+              class="btn shadow-none bg-transparent"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="fa-solid fa-close fs-3 text-white"></i>
+            </button>
+          </div>
+          <div class="modal-body bg-dark">
+            <div class="model d-flex flex-column gap-2 justify-content-center">
+              <ul
+                class="d-flex gap-2 align-items-center d-lg-none flex-column text-white my-auto me-4 list-inline"
+                id="ul-hover"
+              >
+                <li class="w-100 text-center py-3 rounded">
+                  <a href="" class="nav-link">
+                    <i class="fa-solid fa-camera fs opacity-75 text-white"></i>
+                    ONGOING ANIME</a
+                  >
+                </li>
+                <li class="w-100 text-center py-3 rounded">
+                  <a href="" class="nav-link">
+                    <i
+                      class="fa-solid fa-bolt-lightning fs opacity-75 text-white"
+                    ></i>
+                    ANIME MOVIE</a
+                  >
+                </li>
+                <li class="w-100 text-center py-3 rounded">
+                  <a href="" class="nav-link"
+                    ><i class="fa-solid fa-backward opacity-75 text-white"></i>
+                    REQUEST ANIME</a
+                  >
+                </li>
+                <li class="w-100 text-center py-3 rounded">
+                  <a href="" class="nav-link"
+                    ><i class="fa-solid fa-file opacity-75 text-white"></i>
+                    ANIME SERIES</a
+                  >
+                </li>
+                <li class="w-100 text-center py-3 rounded">
+                  <a href="" class="nav-link"
+                    ><i class="fa-solid fa-unlink opacity-75 text-white"></i>
+                    REPORT DEAD LINKS</a
+                  >
+                </li>
+              </ul>
+              <div class="input-group d-flex d-lg-none border-0 my-3">
                 <input
                   type="text"
-                  class="form-control text-opacity-75 text-capitalize bg-opacity-75 bg-dark border-0 border-start shadow-sm text-light"
+                  class="form-control text-center text-opacity-75 bg-opacity-75 text-capitalize bg-dark border-0 border-start shadow-sm text-light"
                   placeholder="Search For"
                   aria-label="Recipient's username"
                   aria-describedby="basic-addon2"
                 />
                 <span
-                  class="input-group-text bg-dark bg-opacity-75 border-0 border-end"
+                  class="input-group-text bg-dark border-0 bg-opacity-75 border-end"
                   id="basic-addon2"
                   ><i
                     class="fa-solid fa-magnifying-glass opacity-75 text-white"
@@ -116,104 +216,11 @@
                 ></span>
               </div>
             </div>
-            <button
-              type="button"
-              class="btn btncollapse p-2 border-0 col-3 col-sm-1 d-flex d-lg-none align-items-center gap-1 text-white"
-              data-bs-toggle="modal"
-             data-bs-target="#Asider"
-            >
-              <i class="fa-solid fa-align-right"></i>
-              <span>Menu</span>
-            </button>
-            <!-- <div class="model-wrapper d-none" id="collapsenav">
-              
-            </div> -->
           </div>
         </div>
       </div>
-  
-      <div
-        class="modal fade"
-        id="Asider"
-        tabindex="-1"
-        aria-labelledby="AsiderLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-fullscreen-lg-down d-lg-none bg-dark">
-          <div class="modal-content">
-            <div class="modal-header bg-dark">
-              <h5 class="modal-title" id="AsiderLabel"><img src="images/Kayoanimelogo.png" alt="" class="img-fluid me-auto"></h5>
-              <button
-                type="button"
-                class="btn shadow-none bg-transparent"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              >
-              <i class="fa-solid fa-close fs-3 text-white"></i>
-            </button>
-            </div>
-            <div class="modal-body bg-dark">
-                <div class="model d-flex flex-column gap-2 justify-content-center">
-                  <ul
-                    class="d-flex gap-2 align-items-center d-lg-none flex-column text-white my-auto me-4 list-inline"
-                    id="ul-hover"
-                  >
-                    <li class="w-100 text-center py-3 rounded">
-                      <a href="" class="nav-link">
-                        <i class="fa-solid fa-camera fs opacity-75 text-white"></i>
-                        ONGOING ANIME</a
-                      >
-                    </li>
-                    <li class="w-100 text-center py-3 rounded">
-                      <a href="" class="nav-link">
-                        <i
-                          class="fa-solid fa-bolt-lightning fs opacity-75 text-white"
-                        ></i>
-                        ANIME MOVIE</a
-                      >
-                    </li>
-                    <li class="w-100 text-center py-3 rounded">
-                      <a href="" class="nav-link"
-                        ><i class="fa-solid fa-backward opacity-75 text-white"></i>
-                        REQUEST ANIME</a
-                      >
-                    </li>
-                    <li class="w-100 text-center py-3 rounded">
-                      <a href="" class="nav-link"
-                        ><i class="fa-solid fa-file opacity-75 text-white"></i>
-                        ANIME SERIES</a
-                      >
-                    </li>
-                    <li class="w-100 text-center py-3 rounded">
-                      <a href="" class="nav-link"
-                        ><i class="fa-solid fa-unlink opacity-75 text-white"></i>
-                        REPORT DEAD LINKS</a
-                      >
-                    </li>
-                  </ul>
-                  <div class="input-group d-flex d-lg-none border-0 my-3">
-                    <input
-                      type="text"
-                      class="form-control text-center text-opacity-75 bg-opacity-75 text-capitalize bg-dark border-0 border-start shadow-sm text-light"
-                      placeholder="Search For"
-                      aria-label="Recipient's username"
-                      aria-describedby="basic-addon2"
-                    />
-                    <span
-                      class="input-group-text bg-dark border-0 bg-opacity-75 border-end"
-                      id="basic-addon2"
-                      ><i
-                        class="fa-solid fa-magnifying-glass opacity-75 text-white"
-                      ></i
-                    ></span>
-                  </div>
-                </div>
-           
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Nav End -->
+    </div>
+    <!-- Nav End -->
 
     <!-- Image Slider Start-->
     <div
@@ -225,7 +232,7 @@
         <div class="carousel-item active">
           <div class="container-fluid py-2">
             <div class="container-xxl">
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-1">
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-1">
                 <a href="#" class="position-relative"
                   ><img
                     src="images/boruto.jpg"
@@ -306,7 +313,7 @@
                 >
               </div>
               <div
-                class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-1 d-none"
+                class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-1 d-none"
               >
                 <a href="#" class="position-relative"
                   ><img
@@ -393,7 +400,7 @@
         <div class="carousel-item">
           <div class="container-fluid py-2">
             <div class="container-xxl">
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-1">
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-1">
                 <a href="#" class="position-relative"
                   ><img
                     src="images/boruto.jpg"
@@ -474,7 +481,7 @@
                 >
               </div>
               <div
-                class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-1 d-none"
+                class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-1 d-none"
               >
                 <a href="#" class="position-relative"
                   ><img
@@ -561,7 +568,7 @@
         <div class="carousel-item">
           <div class="container-fluid py-2">
             <div class="container-xxl">
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-1">
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-1">
                 <a href="#" class="position-relative"
                   ><img
                     src="images/boruto.jpg"
@@ -642,7 +649,7 @@
                 >
               </div>
               <div
-                class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-1 d-none"
+                class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-1 d-none"
               >
                 <a href="#" class="position-relative"
                   ><img
